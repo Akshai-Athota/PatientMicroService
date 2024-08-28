@@ -16,8 +16,6 @@ import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
-@NoArgsConstructor
-@AllArgsConstructor
 public class PatientServiceImpl implements PatientService {
     private PatientRepository patientRepository;
     private PatientMapper patientMapper;

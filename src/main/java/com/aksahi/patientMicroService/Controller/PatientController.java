@@ -13,7 +13,6 @@ import java.util.List;
 @Slf4j
 @RestController
 @RequestMapping("/patient")
-@AllArgsConstructor
 public class PatientController {
     private PatientService patientService;
 
